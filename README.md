@@ -6,6 +6,13 @@ Plugin *AddressPush*
 
 ## Description
 
+The plugin need configure after forward plugin, e.g.
+
+``` conf
+address_push:github.com/littleya/coredns-address-push
+forward:forward
+```
+
 ## Syntax
 
 ``` conf
